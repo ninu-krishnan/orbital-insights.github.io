@@ -1,43 +1,84 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
-    background-image: url('https://media.istockphoto.com/id/1410787752/photo/astronaut-floating-in-space-near-earth-and-moon.jpg?s=612x612&w=0&k=20&c=yz4QeOjDhoK3-QhJWqZFtaLKA9YrtnLauLPjSDwv3sA=');
+    background-image: url('https://source.unsplash.com/1600x900/?space'); /* Background image */
     background-size: cover;
     background-position: center;
 }
 
 header {
-    background: rgba(0, 119, 204, 0.7);
+    background: rgba(0, 119, 204, 0.8); /* Semi-transparent header */
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
-
-.card {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    padding: 20px;
-    width: 300px;
+h1 {
+    font-size: 2.5em;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.hero {
+    background: rgba(255, 255, 255, 0.8); /* White background with transparency */
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Responsive design */
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 30%; /* Adjust width as needed */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 119, 204, 0.8);
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
