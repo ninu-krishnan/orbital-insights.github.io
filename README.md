@@ -1,2 +1,2 @@
 # orbital-insights.github.io
-ad profundum universi
+ad profundum universi 🌠
