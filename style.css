@@ -84,19 +84,37 @@ footer {
 }
 
 .blog {
-    background-color: #282c34; /* Optional: Change the background color */
-    padding: 20px; /* Optional: Add some padding */
-    border-radius: 10px; /* Optional: Round the corners */
+    margin-top: 20px; /* Space above the blog section */
+}
+
+.blog article {
+    background-color: #2a2a2a; /* Dark background for articles */
+    margin-bottom: 20px; /* Space between articles */
+    padding: 15px; /* Padding inside articles */
+    border-radius: 5px; /* Rounded corners for articles */
 }
 
 .blog h2 {
-    color: #ffffff; /* Change the color of the blog title */
+    color: #ffffff; /* White color for article titles */
 }
 
 .blog p {
-    color: #f0f0f0; /* Change the color of the blog text */
-    font-size: 16px; /* Optional: Change the font size */
-    line-height: 1.5; /* Optional: Improve line spacing */
+    color: #f0f0f0; /* Light color for paragraph text */
+}
+
+.blog a {
+    color: #61dafb; /* Color for article links */
+}
+
+.blog a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Footer styles */
+footer {
+    text-align: center; /* Center align footer text */
+    margin-top: 20px; /* Space above the footer */
+    color: #b0b0b0; /* Lighter color for footer text */
 }
 
 </body>
