@@ -89,7 +89,7 @@ nav a:hover {
 }
 
 .blog article {
-    background-color: #222; 
+    background-color: #496d99; 
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -100,7 +100,7 @@ nav a:hover {
 }
 
 .blog p {
-    color: #f0f0f0;
+    color: #e3f5ff;
 }
 
 /* Footer */
