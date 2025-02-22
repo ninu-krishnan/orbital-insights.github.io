@@ -85,3 +85,19 @@ footer {
 
 </body>
 </html>
+
+.blog {
+    background-color: #282c34; /* Optional: Change the background color */
+    padding: 20px; /* Optional: Add some padding */
+    border-radius: 10px; /* Optional: Round the corners */
+}
+
+.blog h2 {
+    color: #ffffff; /* Change the color of the blog title */
+}
+
+.blog p {
+    color: #f0f0f0; /* Change the color of the blog text */
+    font-size: 16px; /* Optional: Change the font size */
+    line-height: 1.5; /* Optional: Improve line spacing */
+}
