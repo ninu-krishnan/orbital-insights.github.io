@@ -65,11 +65,11 @@ nav a:hover {
 }
 
 .blog h2 {
-    color: #ffffff; /* Title color */
+    color: #ffcc00; /* Change the color for blog titles */
 }
 
 .blog p {
-    color: #f0f0f0; /* Paragraph text color */
+    color: #f0f0f0; /* Light color for paragraph text */
 }
 
 .blog a {
@@ -88,5 +88,5 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    margin-top: 20px; /* Space above the footer */
+    margin-top: 20px;
 }
