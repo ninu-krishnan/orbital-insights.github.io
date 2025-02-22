@@ -1,68 +1,43 @@
-/* Resetting default margins and padding */
-* {
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #0b0c10;
-    color: #c5c6c7;
-    line-height: 1.6;
-    padding: 20px;
+    color: #333;
+    background-image: url('your-image-url.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 header {
-    background-color: #1f2833;
+    background: rgba(0, 119, 204, 0.7);
+    color: #fff;
     padding: 20px;
     text-align: center;
 }
 
-header h1 {
-    font-size: 2em;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #66fcf1;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-main {
-    margin-top: 30px;
-}
-
-section {
-    margin-bottom: 30px;
-}
-
-h2 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-}
-
-a {
-    color: #66fcf1;
-    text-decoration: none;
-}
-
-footer {
-    text-align: center;
-    margin-top: 30px;
-    font-size: 0.9em;
-}
-
-footer p {
-    color: #c5c6c7;
+    margin: 0 10px;
 }
